@@ -10,12 +10,19 @@ import SwiftUI
 struct HelloWorld: View {
     @State private var helloText: String?
     var body: some View {
-        VStack {
+        VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
+            Spacer();
             Label("", systemImage: "hand.wave.fill");
             Text(helloText ?? "I am loading be patient")
+            Spacer();
+            Button(action: {
+                HelloAPI().getHello(){(msg) in helloText = msg}
+            }, label: {
+                Text("Fetch Message Again")
+            })
         }
         .navigationTitle("Hello World API")
-        .onAppear() {
+        .task {
             HelloAPI().getHello(){(msg) in
                 helloText = msg
             }
