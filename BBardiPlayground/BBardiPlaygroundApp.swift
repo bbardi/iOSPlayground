@@ -11,7 +11,7 @@ import SwiftUI
 struct BBardiPlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenu(entries: PlaygroundItem.entries)
         }
     }
 }

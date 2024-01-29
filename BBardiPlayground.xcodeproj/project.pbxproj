@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */; };
-		8921FAE82B66FE2100955863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE72B66FE2100955863 /* ContentView.swift */; };
+		8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE72B66FE2100955863 /* MainMenu.swift */; };
 		8921FAEA2B66FE2200955863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921FAE92B66FE2200955863 /* Assets.xcassets */; };
 		8921FAED2B66FE2200955863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921FAEC2B66FE2200955863 /* Preview Assets.xcassets */; };
+		8921FAF42B67004D00955863 /* PlaygroundItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF32B67004D00955863 /* PlaygroundItemView.swift */; };
+		8921FAF62B67079300955863 /* PlaygroundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF52B67079300955863 /* PlaygroundItem.swift */; };
+		8921FAF92B67085000955863 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF82B67085000955863 /* HelloWorld.swift */; };
+		8921FAFB2B67092300955863 /* HelloAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAFA2B67092300955863 /* HelloAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8921FAE22B66FE2100955863 /* BBardiPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBardiPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBardiPlaygroundApp.swift; sourceTree = "<group>"; };
-		8921FAE72B66FE2100955863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8921FAE72B66FE2100955863 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		8921FAE92B66FE2200955863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8921FAEC2B66FE2200955863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8921FAF32B67004D00955863 /* PlaygroundItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundItemView.swift; sourceTree = "<group>"; };
+		8921FAF52B67079300955863 /* PlaygroundItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundItem.swift; sourceTree = "<group>"; };
+		8921FAF82B67085000955863 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		8921FAFA2B67092300955863 /* HelloAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		8921FAE42B66FE2100955863 /* BBardiPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				8921FAFC2B67092B00955863 /* APIClients */,
+				8921FAF52B67079300955863 /* PlaygroundItem.swift */,
 				8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */,
-				8921FAE72B66FE2100955863 /* ContentView.swift */,
+				8921FAF72B67082000955863 /* Views */,
 				8921FAE92B66FE2200955863 /* Assets.xcassets */,
 				8921FAEB2B66FE2200955863 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				8921FAEC2B66FE2200955863 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8921FAF72B67082000955863 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8921FAE72B66FE2100955863 /* MainMenu.swift */,
+				8921FAF32B67004D00955863 /* PlaygroundItemView.swift */,
+				8921FAF82B67085000955863 /* HelloWorld.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8921FAFC2B67092B00955863 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				8921FAFA2B67092300955863 /* HelloAPI.swift */,
+			);
+			path = APIClients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8921FAE82B66FE2100955863 /* ContentView.swift in Sources */,
+				8921FAF92B67085000955863 /* HelloWorld.swift in Sources */,
+				8921FAF42B67004D00955863 /* PlaygroundItemView.swift in Sources */,
+				8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */,
 				8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */,
+				8921FAF62B67079300955863 /* PlaygroundItem.swift in Sources */,
+				8921FAFB2B67092300955863 /* HelloAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -272,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BBardiPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = UYJ3T56KQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +312,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BBardiPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = UYJ3T56KQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +342,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
