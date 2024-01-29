@@ -13,12 +13,14 @@ struct MainMenu: View {
     var body: some View {
         NavigationStack(path: $path){
             List(entries,id: \.title){ entry in
-                NavigationLink(destination: entry.view){
+                NavigationLink(value:entry.title){
                     PlaygroundItemView(name:entry.title,desc: entry.desc)
                 }
-                
             }
             .navigationTitle("Playground")
+            .navigationDestination(for: String.self){name in
+                PlaygroundItem.getView(name: name, path: $path)
+            }
         }
     }
 }

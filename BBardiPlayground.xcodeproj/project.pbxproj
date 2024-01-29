@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890AED8F2B68507200E94BAA /* Stacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AED8E2B68507200E94BAA /* Stacker.swift */; };
 		8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */; };
 		8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE72B66FE2100955863 /* MainMenu.swift */; };
 		8921FAEA2B66FE2200955863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921FAE92B66FE2200955863 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890AED8E2B68507200E94BAA /* Stacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacker.swift; sourceTree = "<group>"; };
 		8921FAE22B66FE2100955863 /* BBardiPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBardiPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBardiPlaygroundApp.swift; sourceTree = "<group>"; };
 		8921FAE72B66FE2100955863 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				8921FAE72B66FE2100955863 /* MainMenu.swift */,
 				8921FAF32B67004D00955863 /* PlaygroundItemView.swift */,
 				8921FAF82B67085000955863 /* HelloWorld.swift */,
+				890AED8E2B68507200E94BAA /* Stacker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				8921FAF92B67085000955863 /* HelloWorld.swift in Sources */,
 				8921FAF42B67004D00955863 /* PlaygroundItemView.swift in Sources */,
+				890AED8F2B68507200E94BAA /* Stacker.swift in Sources */,
 				8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */,
 				8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */,
 				8921FAF62B67079300955863 /* PlaygroundItem.swift in Sources */,

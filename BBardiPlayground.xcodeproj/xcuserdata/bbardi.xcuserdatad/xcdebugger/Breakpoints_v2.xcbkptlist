@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "934E974F-21EB-491C-A6EE-8B6AFABE58BF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3C0F172-A3BF-40D6-942A-FDE8598DAE21"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BBardiPlayground/Views/Stacker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "356BA5D2-896E-4884-BFC0-81557F711292"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BBardiPlayground/Views/Stacker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "356BA5D2-896E-4884-BFC0-81557F711292 - 886be2bc69f121be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;SwiftUI.Label&lt;SwiftUI.Text, SwiftUI.Image&gt;, BBardiPlayground.Stacker&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in BBardiPlayground.Stacker.body.getter : some"
+                  moduleName = "BBardiPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bbardi/Desktop/BBardiPlayground/BBardiPlayground/Views/Stacker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "356BA5D2-896E-4884-BFC0-81557F711292 - 1ca47a31419070d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;SwiftUI.Label&lt;SwiftUI.Text, SwiftUI.Image&gt;, BBardiPlayground.Stacker&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in BBardiPlayground.Stacker.body.getter : some"
+                  moduleName = "BBardiPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bbardi/Desktop/BBardiPlayground/BBardiPlayground/Views/Stacker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

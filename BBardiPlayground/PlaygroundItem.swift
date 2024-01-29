@@ -11,12 +11,24 @@ import SwiftUI
 struct PlaygroundItem {
     var title: String;
     var desc: String;
-    var view: AnyView;
 }
 
 extension PlaygroundItem{
     static let entries : [PlaygroundItem] = [
-        PlaygroundItem(title: "Hello API", desc: "Gets a Hello World message from an API and displays it", view: AnyView(HelloWorld())),
-        PlaygroundItem(title: "Test2", desc: "Test decription2", view: AnyView(Text("Hello World2"))),
-    ]
+        PlaygroundItem(title: "Hello API", desc: "Gets a Hello World message from an API and displays it"),
+        PlaygroundItem(title: "Stacker", desc: "Toy around with the NavigationStack"),
+        PlaygroundItem(title: "Missingno", desc: "An entry missing a getView case"),
+    ];
+    @ViewBuilder
+    static func getView(name: String, path: Binding<NavigationPath>) -> some View {
+        switch name
+        {
+        case "Hello API":
+            HelloWorld()
+        case "Stacker":
+            Stacker(path: path)
+        default:
+            VStack{Text("No such view was found")}
+        }
+    }
 }
