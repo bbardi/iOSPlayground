@@ -28,9 +28,7 @@ extension PlaygroundItem{
         case "Stacker":
             Stacker(path: path)
         default:
-            VStack{
-                Image(systemName: "questionmark.folder")
-                Text("No such view was found")}
+            Missingno()
         }
     }
 }
