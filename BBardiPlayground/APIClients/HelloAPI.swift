@@ -6,20 +6,22 @@
 //
 
 import Foundation
-import Alamofire
 
 class HelloAPI{
-    let helloAPI = "http://192.168.0.241:8080/api/hello";
+    let helloAPI = URL(string: "http://192.168.0.241:8080/api/hello")!;
     
     func getHello(completion:@escaping (String) -> ()) {
-        AF.request(helloAPI).responseString(){
-            response in
-            switch response.result{
-            case .success(let res):
-                completion(res)
-            case .failure(_):
-                completion("Unable to load message")
-            }
+            URLSession.shared.dataTask(with: helloAPI) {data,_,_ in
+                if let data = data {
+                    let msg = String(decoding: data, as: UTF8.self);
+                    DispatchQueue.main.async {
+                        completion(msg)
+                    }
+                } else {
+                    DispatchQueue.main.async {
+                        completion("Unable to get Hello message")
+                    }
+                }
+            }.resume()
         }
-    }
 }

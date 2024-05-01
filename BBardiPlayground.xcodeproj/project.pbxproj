@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		890A87482BA87BA500F7473C /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A87472BA87BA500F7473C /* UITests.swift */; };
-		890A874A2BA87BA500F7473C /* UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A87492BA87BA500F7473C /* UITestsLaunchTests.swift */; };
 		890AED8F2B68507200E94BAA /* Stacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AED8E2B68507200E94BAA /* Stacker.swift */; };
+		891631C72BE22E7E00678B1C /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891631C62BE22E7E00678B1C /* UnitConverter.swift */; };
 		8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */; };
 		8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE72B66FE2100955863 /* MainMenu.swift */; };
 		8921FAEA2B66FE2200955863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921FAE92B66FE2200955863 /* Assets.xcassets */; };
@@ -19,25 +18,12 @@
 		8921FAF92B67085000955863 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF82B67085000955863 /* HelloWorld.swift */; };
 		8921FAFB2B67092300955863 /* HelloAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAFA2B67092300955863 /* HelloAPI.swift */; };
 		895944D02BA2316E00D4A6A8 /* Missingno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895944CF2BA2316E00D4A6A8 /* Missingno.swift */; };
-		89E739B92BA229B3007826AC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89E739B82BA229B3007826AC /* Alamofire */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		890A874B2BA87BA500F7473C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8921FADA2B66FE2100955863 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8921FAE12B66FE2100955863;
-			remoteInfo = BBardiPlayground;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		890A87452BA87BA500F7473C /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		890A87472BA87BA500F7473C /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
-		890A87492BA87BA500F7473C /* UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		890AED8E2B68507200E94BAA /* Stacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacker.swift; sourceTree = "<group>"; };
 		891157422B8A91050017CF58 /* BBardiPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BBardiPlayground.entitlements; sourceTree = "<group>"; };
+		891631C62BE22E7E00678B1C /* UnitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 		8921FAE22B66FE2100955863 /* BBardiPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBardiPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBardiPlaygroundApp.swift; sourceTree = "<group>"; };
 		8921FAE72B66FE2100955863 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
@@ -51,45 +37,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		890A87422BA87BA500F7473C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8921FADF2B66FE2100955863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E739B92BA229B3007826AC /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		890A873E2BA87B1800F7473C /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		890A87462BA87BA500F7473C /* UITests */ = {
-			isa = PBXGroup;
-			children = (
-				890A87472BA87BA500F7473C /* UITests.swift */,
-				890A87492BA87BA500F7473C /* UITestsLaunchTests.swift */,
-			);
-			path = UITests;
-			sourceTree = "<group>";
-		};
 		8921FAD92B66FE2100955863 = {
 			isa = PBXGroup;
 			children = (
 				8921FAE42B66FE2100955863 /* BBardiPlayground */,
-				890A87462BA87BA500F7473C /* UITests */,
 				8921FAE32B66FE2100955863 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				8921FAE22B66FE2100955863 /* BBardiPlayground.app */,
-				890A87452BA87BA500F7473C /* UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +66,6 @@
 		8921FAE42B66FE2100955863 /* BBardiPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				890A873E2BA87B1800F7473C /* Tests */,
 				891157422B8A91050017CF58 /* BBardiPlayground.entitlements */,
 				8921FAFC2B67092B00955863 /* APIClients */,
 				8921FAF52B67079300955863 /* PlaygroundItem.swift */,
@@ -134,6 +93,7 @@
 				8921FAF82B67085000955863 /* HelloWorld.swift */,
 				890AED8E2B68507200E94BAA /* Stacker.swift */,
 				895944CF2BA2316E00D4A6A8 /* Missingno.swift */,
+				891631C62BE22E7E00678B1C /* UnitConverter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,24 +109,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		890A87442BA87BA500F7473C /* UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 890A874D2BA87BA500F7473C /* Build configuration list for PBXNativeTarget "UITests" */;
-			buildPhases = (
-				890A87412BA87BA500F7473C /* Sources */,
-				890A87422BA87BA500F7473C /* Frameworks */,
-				890A87432BA87BA500F7473C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				890A874C2BA87BA500F7473C /* PBXTargetDependency */,
-			);
-			name = UITests;
-			productName = UITests;
-			productReference = 890A87452BA87BA500F7473C /* UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		8921FAE12B66FE2100955863 /* BBardiPlayground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8921FAF02B66FE2200955863 /* Build configuration list for PBXNativeTarget "BBardiPlayground" */;
@@ -181,7 +123,6 @@
 			);
 			name = BBardiPlayground;
 			packageProductDependencies = (
-				89E739B82BA229B3007826AC /* Alamofire */,
 			);
 			productName = BBardiPlayground;
 			productReference = 8921FAE22B66FE2100955863 /* BBardiPlayground.app */;
@@ -197,10 +138,6 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					890A87442BA87BA500F7473C = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 8921FAE12B66FE2100955863;
-					};
 					8921FAE12B66FE2100955863 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -216,26 +153,17 @@
 			);
 			mainGroup = 8921FAD92B66FE2100955863;
 			packageReferences = (
-				89E739B72BA229B3007826AC /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 8921FAE32B66FE2100955863 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8921FAE12B66FE2100955863 /* BBardiPlayground */,
-				890A87442BA87BA500F7473C /* UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		890A87432BA87BA500F7473C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8921FAE02B66FE2100955863 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,15 +176,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		890A87412BA87BA500F7473C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				890A874A2BA87BA500F7473C /* UITestsLaunchTests.swift in Sources */,
-				890A87482BA87BA500F7473C /* UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8921FADE2B66FE2100955863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +186,7 @@
 				890AED8F2B68507200E94BAA /* Stacker.swift in Sources */,
 				8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */,
 				8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */,
+				891631C72BE22E7E00678B1C /* UnitConverter.swift in Sources */,
 				8921FAF62B67079300955863 /* PlaygroundItem.swift in Sources */,
 				8921FAFB2B67092300955863 /* HelloAPI.swift in Sources */,
 			);
@@ -274,49 +194,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		890A874C2BA87BA500F7473C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8921FAE12B66FE2100955863 /* BBardiPlayground */;
-			targetProxy = 890A874B2BA87BA500F7473C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		890A874E2BA87BA500F7473C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.bbardi.UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BBardiPlayground;
-			};
-			name = Debug;
-		};
-		890A874F2BA87BA500F7473C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ro.bbardi.UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BBardiPlayground;
-			};
-			name = Release;
-		};
 		8921FAEE2B66FE2200955863 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -501,15 +379,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		890A874D2BA87BA500F7473C /* Build configuration list for PBXNativeTarget "UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				890A874E2BA87BA500F7473C /* Debug */,
-				890A874F2BA87BA500F7473C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8921FADD2B66FE2100955863 /* Build configuration list for PBXProject "BBardiPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -529,25 +398,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		89E739B72BA229B3007826AC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		89E739B82BA229B3007826AC /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 89E739B72BA229B3007826AC /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8921FADA2B66FE2100955863 /* Project object */;
 }
