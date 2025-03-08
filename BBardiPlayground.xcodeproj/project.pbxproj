@@ -10,35 +10,61 @@
 		89037BC12BE41CAC00DAF670 /* PushAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89037BC02BE41CAC00DAF670 /* PushAPI.swift */; };
 		890AED8F2B68507200E94BAA /* Stacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AED8E2B68507200E94BAA /* Stacker.swift */; };
 		891631C72BE22E7E00678B1C /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891631C62BE22E7E00678B1C /* UnitConverter.swift */; };
+		8916C23C2BFCD8C40048A042 /* BBardiPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916C23B2BFCD8C40048A042 /* BBardiPlaygroundUITests.swift */; };
+		8916C23E2BFCD8C40048A042 /* BBardiPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916C23D2BFCD8C40048A042 /* BBardiPlaygroundUITestsLaunchTests.swift */; };
+		8916C2442BFCD8C80048A042 /* SampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916C2332BFCD87E0048A042 /* SampleTest.swift */; };
 		8921FAE62B66FE2100955863 /* BBardiPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */; };
 		8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAE72B66FE2100955863 /* MainMenu.swift */; };
 		8921FAEA2B66FE2200955863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921FAE92B66FE2200955863 /* Assets.xcassets */; };
-		8921FAED2B66FE2200955863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921FAEC2B66FE2200955863 /* Preview Assets.xcassets */; };
 		8921FAF42B67004D00955863 /* PlaygroundItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF32B67004D00955863 /* PlaygroundItemView.swift */; };
 		8921FAF62B67079300955863 /* PlaygroundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF52B67079300955863 /* PlaygroundItem.swift */; };
 		8921FAF92B67085000955863 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAF82B67085000955863 /* HelloWorld.swift */; };
 		8921FAFB2B67092300955863 /* HelloAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921FAFA2B67092300955863 /* HelloAPI.swift */; };
+		8936FC5A2C1B437100B3B8E7 /* CanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936FC592C1B437100B3B8E7 /* CanView.swift */; };
 		895944D02BA2316E00D4A6A8 /* Missingno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895944CF2BA2316E00D4A6A8 /* Missingno.swift */; };
+		89F997532C0F096C0059CB11 /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F997522C0F096C0059CB11 /* ROT13.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8916C23F2BFCD8C40048A042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8921FADA2B66FE2100955863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8921FAE12B66FE2100955863;
+			remoteInfo = BBardiPlayground;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		89037BC02BE41CAC00DAF670 /* PushAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAPI.swift; sourceTree = "<group>"; };
 		890AED8E2B68507200E94BAA /* Stacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacker.swift; sourceTree = "<group>"; };
 		891157422B8A91050017CF58 /* BBardiPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BBardiPlayground.entitlements; sourceTree = "<group>"; };
 		891631C62BE22E7E00678B1C /* UnitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		8916C2332BFCD87E0048A042 /* SampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTest.swift; sourceTree = "<group>"; };
+		8916C2392BFCD8C40048A042 /* BBardiPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBardiPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8916C23B2BFCD8C40048A042 /* BBardiPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBardiPlaygroundUITests.swift; sourceTree = "<group>"; };
+		8916C23D2BFCD8C40048A042 /* BBardiPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBardiPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8921FAE22B66FE2100955863 /* BBardiPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBardiPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBardiPlaygroundApp.swift; sourceTree = "<group>"; };
 		8921FAE72B66FE2100955863 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		8921FAE92B66FE2200955863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8921FAEC2B66FE2200955863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8921FAF32B67004D00955863 /* PlaygroundItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundItemView.swift; sourceTree = "<group>"; };
 		8921FAF52B67079300955863 /* PlaygroundItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundItem.swift; sourceTree = "<group>"; };
 		8921FAF82B67085000955863 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 		8921FAFA2B67092300955863 /* HelloAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAPI.swift; sourceTree = "<group>"; };
+		8936FC592C1B437100B3B8E7 /* CanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanView.swift; sourceTree = "<group>"; };
 		895944CF2BA2316E00D4A6A8 /* Missingno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missingno.swift; sourceTree = "<group>"; };
+		89F997522C0F096C0059CB11 /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8916C2362BFCD8C40048A042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8921FADF2B66FE2100955863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,10 +75,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8916C23A2BFCD8C40048A042 /* BBardiPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8916C23B2BFCD8C40048A042 /* BBardiPlaygroundUITests.swift */,
+				8916C2332BFCD87E0048A042 /* SampleTest.swift */,
+				8916C23D2BFCD8C40048A042 /* BBardiPlaygroundUITestsLaunchTests.swift */,
+			);
+			path = BBardiPlaygroundUITests;
+			sourceTree = "<group>";
+		};
 		8921FAD92B66FE2100955863 = {
 			isa = PBXGroup;
 			children = (
 				8921FAE42B66FE2100955863 /* BBardiPlayground */,
+				8916C23A2BFCD8C40048A042 /* BBardiPlaygroundUITests */,
 				8921FAE32B66FE2100955863 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				8921FAE22B66FE2100955863 /* BBardiPlayground.app */,
+				8916C2392BFCD8C40048A042 /* BBardiPlaygroundUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,17 +112,8 @@
 				8921FAE52B66FE2100955863 /* BBardiPlaygroundApp.swift */,
 				8921FAF72B67082000955863 /* Views */,
 				8921FAE92B66FE2200955863 /* Assets.xcassets */,
-				8921FAEB2B66FE2200955863 /* Preview Content */,
 			);
 			path = BBardiPlayground;
-			sourceTree = "<group>";
-		};
-		8921FAEB2B66FE2200955863 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8921FAEC2B66FE2200955863 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8921FAF72B67082000955863 /* Views */ = {
@@ -96,6 +125,8 @@
 				890AED8E2B68507200E94BAA /* Stacker.swift */,
 				895944CF2BA2316E00D4A6A8 /* Missingno.swift */,
 				891631C62BE22E7E00678B1C /* UnitConverter.swift */,
+				89F997522C0F096C0059CB11 /* ROT13.swift */,
+				8936FC592C1B437100B3B8E7 /* CanView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +143,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8916C2382BFCD8C40048A042 /* BBardiPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8916C2412BFCD8C40048A042 /* Build configuration list for PBXNativeTarget "BBardiPlaygroundUITests" */;
+			buildPhases = (
+				8916C2352BFCD8C40048A042 /* Sources */,
+				8916C2362BFCD8C40048A042 /* Frameworks */,
+				8916C2372BFCD8C40048A042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8916C2402BFCD8C40048A042 /* PBXTargetDependency */,
+			);
+			name = BBardiPlaygroundUITests;
+			productName = BBardiPlaygroundUITests;
+			productReference = 8916C2392BFCD8C40048A042 /* BBardiPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8921FAE12B66FE2100955863 /* BBardiPlayground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8921FAF02B66FE2200955863 /* Build configuration list for PBXNativeTarget "BBardiPlayground" */;
@@ -141,6 +190,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					8916C2382BFCD8C40048A042 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8921FAE12B66FE2100955863;
+					};
 					8921FAE12B66FE2100955863 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -162,16 +215,23 @@
 			projectRoot = "";
 			targets = (
 				8921FAE12B66FE2100955863 /* BBardiPlayground */,
+				8916C2382BFCD8C40048A042 /* BBardiPlaygroundUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8916C2372BFCD8C40048A042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8921FAE02B66FE2100955863 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8921FAED2B66FE2200955863 /* Preview Assets.xcassets in Resources */,
 				8921FAEA2B66FE2200955863 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,13 +239,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8916C2352BFCD8C40048A042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8916C23C2BFCD8C40048A042 /* BBardiPlaygroundUITests.swift in Sources */,
+				8916C23E2BFCD8C40048A042 /* BBardiPlaygroundUITestsLaunchTests.swift in Sources */,
+				8916C2442BFCD8C80048A042 /* SampleTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8921FADE2B66FE2100955863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8921FAF92B67085000955863 /* HelloWorld.swift in Sources */,
 				895944D02BA2316E00D4A6A8 /* Missingno.swift in Sources */,
+				8936FC5A2C1B437100B3B8E7 /* CanView.swift in Sources */,
 				8921FAF42B67004D00955863 /* PlaygroundItemView.swift in Sources */,
+				89F997532C0F096C0059CB11 /* ROT13.swift in Sources */,
 				890AED8F2B68507200E94BAA /* Stacker.swift in Sources */,
 				89037BC12BE41CAC00DAF670 /* PushAPI.swift in Sources */,
 				8921FAE82B66FE2100955863 /* MainMenu.swift in Sources */,
@@ -198,7 +270,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8916C2402BFCD8C40048A042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8921FAE12B66FE2100955863 /* BBardiPlayground */;
+			targetProxy = 8916C23F2BFCD8C40048A042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8916C2422BFCD8C40048A042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UYJ3T56KQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.bbardi.BBardiPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BBardiPlayground;
+			};
+			name = Debug;
+		};
+		8916C2432BFCD8C40048A042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UYJ3T56KQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.bbardi.BBardiPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BBardiPlayground;
+			};
+			name = Release;
+		};
 		8921FAEE2B66FE2200955863 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,7 +442,7 @@
 				CODE_SIGN_ENTITLEMENTS = BBardiPlayground/BBardiPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BBardiPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = UYJ3T56KQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -357,7 +473,7 @@
 				CODE_SIGN_ENTITLEMENTS = BBardiPlayground/BBardiPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BBardiPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = UYJ3T56KQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -383,6 +499,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8916C2412BFCD8C40048A042 /* Build configuration list for PBXNativeTarget "BBardiPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8916C2422BFCD8C40048A042 /* Debug */,
+				8916C2432BFCD8C40048A042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8921FADD2B66FE2100955863 /* Build configuration list for PBXProject "BBardiPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -18,7 +18,8 @@ extension PlaygroundItem{
         PlaygroundItem(title: "Hello API", desc: "Gets a Hello World message from an API and displays it"),
         PlaygroundItem(title: "Stacker", desc: "Toy around with the NavigationStack"),
         PlaygroundItem(title: "Missingno", desc: "An entry missing a getView case"),
-        PlaygroundItem(title: "Unit Converter", desc: "Unit converter for first SwiftUI Challenge")
+        PlaygroundItem(title: "Unit Converter", desc: "Unit converter for first SwiftUI Challenge"),
+        PlaygroundItem(title: "Caesar Cipher", desc: "Simple encryptor using Caesar")
     ];
     @ViewBuilder
     static func getView(name: String, path: Binding<NavigationPath>) -> some View {
@@ -30,6 +31,8 @@ extension PlaygroundItem{
             Stacker(path: path)
         case "Unit Converter":
             UnitConverter()
+        case "Caesar Cipher":
+            ROT13()
         default:
             Missingno()
         }
