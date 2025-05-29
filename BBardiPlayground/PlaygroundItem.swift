@@ -19,7 +19,8 @@ extension PlaygroundItem{
         PlaygroundItem(title: "Stacker", desc: "Toy around with the NavigationStack"),
         PlaygroundItem(title: "Missingno", desc: "An entry missing a getView case"),
         PlaygroundItem(title: "Unit Converter", desc: "Unit converter for first SwiftUI Challenge"),
-        PlaygroundItem(title: "Caesar Cipher", desc: "Simple encryptor using Caesar")
+        PlaygroundItem(title: "Caesar Cipher", desc: "Simple encryptor using Caesar"),
+        PlaygroundItem(title: "GitHub Finder", desc: "Look for GitHub users via their username")
     ];
     @ViewBuilder
     static func getView(name: String, path: Binding<NavigationPath>) -> some View {
@@ -33,6 +34,8 @@ extension PlaygroundItem{
             UnitConverter()
         case "Caesar Cipher":
             ROT13()
+        case "GitHub Finder":
+            GithubSearchView()
         default:
             Missingno()
         }
